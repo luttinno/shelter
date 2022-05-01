@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shelter</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -33,7 +33,7 @@
             <div class="content">
                 <h1 class="heading">Not only people need a house</h1>
                 <p class="subheading">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-                <button class="btn"> <a href="#third-page">Make a friend</a></button>
+                <button class="btn"> <a href="#ourFriends">Make a friend</a></button>
             </div>
             <img class="puppy" src="images/start-screen-puppy.png" alt="puppy">
         </div>
@@ -56,39 +56,83 @@
         </div>
     </div>
 
-    <div class="main3">
-        <div class="third-page" id="third-page">
-            <div class="our-friends">
-                <h3>Our friends who <br> are looking for a house</h3>
-            </div>
-            <div class="cards">
-                <button class="arrows">
-                    <img src="images/Arrow left.svg" alt="arrow">
-                </button>
-                <div class="Jennifer" id="katrine">
-                    <img src="images/pets-katrine.png" alt="cat">
-                    <p>Katrine</p>
-                    <button class="card-btn">Learn more</button>
-                </div>
-                <div class="Jennifer" id="jenny">
-                    <img src="images/pets-jennifer.png" alt="dog" width="270px" height="270px">
-                    <p>Jennifer</p>
-                    <button class="card-btn">Learn more</button>
-                </div>
-                <div class="Jennifer" id="woody">
-                    <img src="images/pets-woody.png" alt="dog">
-                    <p>Woody</p>
-                    <button class="card-btn">Learn more</button>
-                </div>
-                <button class="arrows">
-                    <img src="images/Arrow right.svg" alt="arrow">
-                </button>
-            </div>
-            <button class="btn2">
-               <a href="https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/shelter/shelter-pets-1280px.jpg" target="_blank" >Get to know the rest</a>
-            </button>
+    
+
+
+
+    <div class="our-Friends-block" id="ourFriends">
+        <div class="third-page">
+        <div class="our-friends-heading">
+          <h3>Our friends who</h3>
+          <h3>are looking for a house</h3>
         </div>
-    </div>
+        <div class="slider">
+          <div class="card-wrap">
+            <div class="card">
+              <img src="images/pets-katrine.png" alt="Katrine" />
+              <p>Katrine</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="images/pets-jennifer.png"
+                alt="Jennifer"
+              />
+              <p>Jennifer</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/pets-woody.png" alt="Woody" />
+              <p>Woody</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="images/pets-sophia.png"
+                alt="pets-sophia"
+              />
+              <p>Charly</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/pets-timmy.png" alt="Timmy" />
+              <p>Freddie</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/pets-charly.png" alt="Charly" />
+              <p>Timmy</p>
+              <div class="learnMoreBox">
+                <button class="learnMoreBtn">Learn more</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <span class="leftArrow" id="leftArrow"
+          ><img src="images/Arrow left.svg" alt="arrow"
+        /></span>
+        <span class="rightArrow" id="rightArrow"
+          ><img src="images/Arrow right.svg" alt="arrow"
+        /></span>
+        <button class="btn2">
+            <a href="https://github.com/rolling-scopes-school/js-fe-course-en/blob/main/tasks/shelter/shelter-pets-1280px.jpg" target="_blank" >Get to know the rest</a>
+         </button>
+        </div>
+        
+      </div>
+
+
 
     <div class="main4">
         <div class="fourth-page" id="fourth-page">
@@ -189,6 +233,6 @@
             
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
