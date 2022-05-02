@@ -13,7 +13,7 @@
 
 .main1{
 
-    background-image: url(../assets/images/start-screen-gradient-background.png);
+    background-image: url(../../assets/images/start-screen-gradient-background.png);
     background-size: cover;
 }
 
@@ -551,7 +551,7 @@ header{
 
 footer{
     background-size: cover;
-    background-image: url(../assets/images/footer-gradient-background.jpg);
+    background-image: url(../../assets/images/footer-gradient-background.jpg);
 }
 
 .sixth-page{
