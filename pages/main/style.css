@@ -270,6 +270,13 @@ header{
 .our-friends-heading h3,span{
     font-family: 'Georgia';
     font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
 }
 .slider{
     width: 95%;
