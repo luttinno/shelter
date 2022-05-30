@@ -678,9 +678,18 @@ footer{
         box-sizing: border-box;
         scroll-behavior: smooth;
     }
-    
 
+    #katrine{
+        display: block;
+    }
+    #jennifer{
+        display: block;
+        transform: translateX(-20px);
+    }
 
+    .card{
+        display: none;
+    }
 
     .first-page{
         width: 768px;
@@ -839,7 +848,7 @@ footer{
 }
 
 .slider{
-    width: 1085px;
+    width: 708px;
 }
 
 .our-friends-heading{
@@ -848,9 +857,10 @@ footer{
 
 .card-wrap{
     transform: translate(-3px,-23px);
+    width: 708px;
 }
 #katrine{
-    transform:translateX(51px)
+    transform:translateX(24px);
 }
 .leftArrow{
     transform: translate(-328px,-272px) !important;
