@@ -379,3 +379,158 @@ footer{
 #footer-puppy{
     transform: translateY(20px);
 }
+
+
+@media (max-width: 768px){
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+    
+    
+.main1{
+    background-size: cover;
+    background-color: #FFFFFF;
+}
+    
+
+    
+.header{
+    width: 768px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+        
+}
+
+.logo{
+    transform: translateX(-10px);
+}
+.navbar{
+    margin: 0;
+}
+.navbar ul li{
+    margin-right: 31.5px;
+}
+
+
+.main2{
+    background-size: cover;
+    background-color: #F6F6F6;
+}
+
+
+.first-main{
+    width: 768px;
+    height: 1733px;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+}
+.first-main h3{
+    transform: translate(1px,19px);
+}
+
+.first-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    row-gap: 15px;
+    
+}
+.card{
+    margin: 0;
+    letter-spacing: 0.06em;
+}
+.card img{
+    transform: translateY(3px);
+}
+#scarlett{
+    display: none;
+}
+#freddie{
+    display: none;
+}
+.arrows{
+    transform: translateY(-17px);
+}
+#katrine{
+    transform: translateY(-16px);
+    
+}
+#jennifer{
+    transform: translateY(-16px)
+}
+
+
+footer{
+    background-size: cover;
+    background-image: url(../../assets/images/footer-gradient-background.jpg);
+}
+
+.sixth-page{
+    width: 768px;
+    height: 639px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+.questions{
+    width: 278px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#question1{
+    transform: translate(12px,6px);
+}
+#email img{
+    width: 45px;
+    height: 31px;
+    transform: translate(-4px,1px);
+}
+#email h4{
+    transform: translate(-6px,1px);
+}
+#question2{
+    transform: translate(-34px,7px);
+}
+
+#location1 img{
+    width: 21px;
+    height: 33px;
+}
+#location1{
+    transform: translateY(-12px);
+}
+#location2 img{
+    width: 21px;
+    height: 33px;
+}
+#footer-puppy{
+    transform: translate(192px,24px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
