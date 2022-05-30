@@ -462,9 +462,25 @@ header{
 }
 
 .first-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 35px;
+    column-gap: 15px;
+}
+
+.scnd-row{
+    text-align: center;
+    color: #545454;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    transform: translate(130px,30px);
+}
+.scnd-row h4{
+    margin-top: 25px;
 }
 
 .second-row{
@@ -535,7 +551,7 @@ header{
 }
 
 .donation h5{
-    width: 307px;
+    width: 308px;
     height: 17px;
     font-family: 'Georgia';
     font-style: normal;
@@ -650,3 +666,340 @@ footer{
 #footer-puppy{
     transform: translateY(20px);
 }
+
+
+@media (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+
+
+
+    .first-page{
+        width: 768px;
+        height: 1165px;
+        margin: 0 auto;
+    }
+    
+    .main1{
+    
+        background-image: url(../../assets/images/start-screen-gradient-background.png);
+        background-size: cover;
+    }
+    
+    header{
+        width: 708px;
+        height: 60px;
+        margin-left: 30px;
+        
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tittle{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+
+    }
+    .subtittle{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+    }
+
+    .navbar{
+        
+        display: flex;
+        justify-content: space-around;
+        transform: translateX(32px);
+    }
+    .navbar ul li {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #CDCDCD;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-right: 32px;
+    }
+
+    .first-main{
+        width: 569px;
+        height: 1015px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .content{
+        margin: 0;
+        width: 460px;
+        height: 322px;
+        display: flex;
+        transform: translate(46px, 30px);
+    }
+   
+
+    .puppy{
+        width: 569px;
+        height: 593px;
+        margin: 0;
+        transform: translate(169px,30px);
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 45px;
+        gap: 10px;
+        transform: translateX(125px);
+        letter-spacing: 1px;
+    }
+
+    
+.main2{
+
+    background-size: cover;
+}
+.second-page{
+    width: 768px;
+    height: 1048px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.second-page img{
+    transform: translateY(-35px);
+}
+
+
+.about-shelter{
+    width: 430px;
+    height: 380px;
+    transform: translateY(15px);
+}
+
+.our-Friends-block{
+    background-size: cover;
+}
+
+
+
+.third-page{
+    width: 768px;
+    height: 877px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+}
+
+
+.card img{
+    width: 270px;
+    height: 270px;
+    transform: translateY(3px);
+}
+.card p{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.06em;
+}
+
+.slider{
+    width: 1085px;
+}
+
+.our-friends-heading{
+    transform: translateY(-5px)
+}
+
+.card-wrap{
+    transform: translate(-3px,-23px);
+}
+#katrine{
+    transform:translateX(51px)
+}
+.leftArrow{
+    transform: translate(-328px,-272px) !important;
+}
+.rightArrow{
+    transform: translate(328px, -334px) !important;
+}
+.btn2{
+    transform: translateY(-94px);
+}
+
+.main4{
+    background-color: #FFFFFF;
+    background-size: cover
+}
+
+.fourth-page{
+    width: 768px;
+    height: 779px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.helps{
+    transform: translate(1px,1px);
+}
+
+.vector h4{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+.vector{
+    width: 170px;
+}
+.scnd-row h4{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.first-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items:center;
+    row-gap: 57px;
+    column-gap: 60px;
+    width: 630px;
+    height: 449px;
+    margin-left: 69px;
+    margin-right: 69px;
+    transform: translateY(-20px);
+}
+.scnd-row{
+    transform: translate(0);
+    width: 170px;
+}
+
+#medicine{
+    transform: translateY(-4px);
+}
+#sleeping-area{
+    transform: translateY(-4px);
+}
+
+.main5{
+    background-size: cover;
+    background-color: #F6F6F6;
+}
+
+.fiveth-page{
+    width: 768px;
+    height: 783px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation{
+    transform: translate(-8px,-39px);
+}
+
+.donation a{
+    transform: translate(-1px, 2px);
+}
+#doggo{
+    transform: translate(7px,20px);
+}
+
+footer{
+    background-size: cover;
+    background-image: url(../../assets/images/footer-gradient-background.jpg);
+}
+
+.sixth-page{
+    width: 768px;
+    height: 639px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+.questions{
+    width: 278px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#question1{
+    transform: translate(12px,6px);
+}
+#email img{
+    width: 45px;
+    height: 31px;
+    transform: translate(-4px,1px);
+}
+#email h4{
+    transform: translate(-6px,1px);
+}
+#question2{
+    transform: translate(-34px,7px);
+}
+
+#location1 img{
+    width: 21px;
+    height: 33px;
+}
+#location1{
+    transform: translateY(-12px);
+}
+#location2 img{
+    width: 21px;
+    height: 33px;
+}
+#footer-puppy{
+    transform: translate(192px,24px);
+}
+
+
+
+
+
+
+
+   }
