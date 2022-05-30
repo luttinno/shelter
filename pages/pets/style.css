@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+.burger2-menu{
+    display: none;
+}
 
 .main1{
     background-size: cover;
@@ -521,6 +524,181 @@ footer{
     transform: translate(192px,24px);
 }
 
+}
+
+
+@media (max-width: 320px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+    
+    
+.main1{
+    background-size: cover;
+    background-color: #FFFFFF;
+}
+    
+
+    
+.header{
+    width: 320px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+        
+}
+.logo h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    width: 187px;
+    height: 35px;
+    transform: translate(-21px,1px);
+}
+.logo p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    width: 187px;
+    height: 15px;
+    transform: translate(-20px,5px);
+}
+.navbar{
+    display: none;
+}
+.burger2-menu{
+    display: block;
+    transform: translate(-53px,2px);
+}
+.main2{
+    background-size: cover;
+    background-color: #F6F6F6;
+}
+
+
+.first-main{
+    width: 320px;
+    height: 1649px;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+}
+.first-main h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    transform: translateY(2px);
+}
+.card{
+    display: none;
+    transform: translateY(6px);
+}
+#katrine{
+    display: block !important;
+    transform: translate(0px,0px);
+}
+#jennifer{
+    display: block;
+    transform: translateY(15px);
+}
+#woody{
+    display: block;
+    transform: translateY(31px);
+}
+.first-row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.left{
+    margin: 6px;
+}
+.right{
+    margin: 6px;
+}
+.middle{
+    margin: 6px;
+}
+.arrows{
+    transform: translateY(2px);
+}
+
+footer{
+    background-size: cover;
+    background-image: url(../../assets/images/footer-gradient-background.jpg);
+}
+
+.sixth-page{
+    width: 320px;
+    height: 809px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.questions h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+#question1{
+    transform: translate(12px,-2px);
+}
+#question2{
+    transform: translate(-34px,-14px);
+}
+#question1 h3{
+    transform: translate(-13px,18px);
+}
+#email{
+    transform: translate(3px,-8px);
+}
+#phone{
+    transform: translate(7px,-7px);
+}
+#question2 h3{
+    transform: translate(33px,21px);
+}
+#location1{
+    transform: translate(23px,-9px);
+}
+#location2{
+    transform: translate(24px,9px);
+}
+#footer-puppy{
+    width: 260px;
+    height: 269px;
+    transform: translate(-1px,12px);
+}
 
 
 
@@ -528,9 +706,5 @@ footer{
 
 
 
-
-
-
-
-
+    
 }
