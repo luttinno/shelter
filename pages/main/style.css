@@ -1021,7 +1021,11 @@ footer{
     scroll-behavior: smooth;
     
 }
-    
+
+#jennifer{
+    display: none;
+}
+
 .first-page{
     width: 320px;
     height: 823px;
@@ -1191,7 +1195,7 @@ footer{
 }
 #katrine{
     display: block;
-    
+    transform: translateX(51px);
 }
 .slider{
     height: 435px;
