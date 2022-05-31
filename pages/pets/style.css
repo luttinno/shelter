@@ -384,7 +384,7 @@ footer{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 1280px){
 
 *{
     margin: 0;
@@ -393,7 +393,9 @@ footer{
     scroll-behavior: smooth;
     text-decoration: none;
 }
-    
+    body{
+        overflow-x: hidden;
+    }
     
 .main1{
     background-size: cover;
@@ -527,7 +529,7 @@ footer{
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 768px){
     *{
     margin: 0;
     padding: 0;
@@ -535,7 +537,9 @@ footer{
     scroll-behavior: smooth;
     text-decoration: none;
 }
-    
+    body{
+        overflow-x: hidden;
+    }
     
 .main1{
     background-size: cover;

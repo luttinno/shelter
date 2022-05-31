@@ -670,13 +670,17 @@ footer{
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
 
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         scroll-behavior: smooth;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 
     #katrine{
@@ -1013,13 +1017,17 @@ footer{
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 768px){
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     
+}
+
+body{
+    overflow-x: hidden;
 }
 
 #jennifer{
