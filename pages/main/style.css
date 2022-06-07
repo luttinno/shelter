@@ -287,7 +287,7 @@ header{
 .card-wrap {
     display: flex;
     width: 200%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     transition: 1s;
 }
 .card {
@@ -773,9 +773,7 @@ footer{
         transform: translateX(-20px);
     }
 
-    .card{
-        display: none;
-    }
+    
 
     .first-page{
         width: 768px;
@@ -943,7 +941,7 @@ footer{
 
 .card-wrap{
     transform: translate(-3px,-23px);
-    width: 708px;
+    width: 2081px;
 }
 #katrine{
     transform:translateX(24px);
@@ -1112,9 +1110,7 @@ body{
     overflow-x: hidden;
 }
 
-#jennifer{
-    display: none;
-}
+
 
 .first-page{
     width: 320px;
@@ -1275,21 +1271,13 @@ body{
     justify-content: center;
     transform: translate(1px,-33px);
 }
-.card-wrap{
-    justify-content: flex-start;
-    transform: translate(0);
-}
-.card{
-    display: none;
-    
-}
-#katrine{
-    display: block;
-    transform: translateX(51px);
-}
+
+
+
 .slider{
+    width: 353px;
     height: 435px;
-    transform: translate(-26px,-60px);
+    transform: translate(-68px,-60px);
 }
 .leftArrow {
     transform: translate(-66px,-35px) !important;
