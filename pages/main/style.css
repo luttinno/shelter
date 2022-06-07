@@ -670,6 +670,88 @@ footer{
     display: none;
 }
 
+
+.cardInfo{
+    background: rgba(80, 74, 74, 0.5);
+    display: none;
+    width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.cardInfo.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInfocontainers{
+    width: 740px;
+    position: relative;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+}
+.cardInfo-container{
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background: #fff;
+    width: 740px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.card-info h3{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.card-info h4{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.card-info{
+    width: 260px;
+    margin: 0 auto;
+}
+
+.cardData{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cardData p{
+    margin-bottom: 4px;
+    
+}
+.modalInfo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.X-icon {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 17px;
+    top: 22px;
+}
+
 @media (max-width: 1280px) {
 
     *{
