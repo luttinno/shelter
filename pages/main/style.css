@@ -4,7 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+body{
+    overflow-x: hidden;
+}
 .first-page{
     width: 1280px;
     height: 908px;
@@ -1164,6 +1166,11 @@ body{
     height: 823px;
     margin: 0 auto;
 }
+
+.first-main{
+    width: 320px;
+    height: 823px;
+}
     
 .main1{
     
@@ -1171,8 +1178,8 @@ body{
     background-size: cover;
 }
 
-.header{
-    margin: 0;
+header{
+
     width: 257px;
     height: 60px;
     
@@ -1186,11 +1193,11 @@ body{
 }
 .burger-menu{
     display: block;
-    transform: translate(-471px,20px);
+   
 }
 
 .content{
-    width: 309px;
+    width: 60px;
     height: 296px;
     transform: translateX(-100px);
 }
@@ -1226,10 +1233,10 @@ body{
 .btn{
     transform: translate(-113px,30px);
 }
-.first-main img{
+.first-main img {
     width: 260px;
     height: 271.77px;
-    transform: translate(-260px,-312px);
+    transform: translate(-32px,-120px);
 }
 
 
@@ -1374,11 +1381,16 @@ body{
 }
 
 .vector{
+    width: 135px;
     height: 128px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.scnd-row{
+    width: 135px;
+    height: 128px;
 }
 .vector img{
     width: 50px;
@@ -1523,6 +1535,10 @@ footer{
 #email{
     transform: translate(3px,-8px);
 }
+.email h4{
+    width: 180px;
+}
+
 #phone{
     transform: translate(7px,-7px);
 }
