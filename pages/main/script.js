@@ -1,3 +1,17 @@
+function burgerMenu(){
+    const clickMenu = document.getElementsByClassName("menu-container");
+    clickMenu[0].style.display = "block";
+   
+}
+
+
+
+
+
+
+
+
+
 function btnOurFriends(e){
     window.location.hash="ourFriends";
     console.log("rame")
