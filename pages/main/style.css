@@ -685,9 +685,9 @@ footer{
 .menu-container{
     display: none;
     position: absolute;
-    right: 7px;
+    right: 0px;
     top: 110px;
-    width: 97%;
+    width: 100%;
     background-color: #292929;
     text-align: center;
     list-style-type: none;
